@@ -39,7 +39,7 @@ def download(vid_link, download_path):
 
     videostream.download(download_folder)
 
-    messagebox.showinfo(title="Download Successfully", message="Your downloaded video is in\n" + download_folder)
+    messagebox.showinfo(title="Download Successfully", message=f'{getvideo.title} is in\n {download_folder}')
 
 
 # Entry point of the program
