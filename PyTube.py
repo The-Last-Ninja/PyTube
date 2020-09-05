@@ -6,7 +6,7 @@ from tkinter.ttk import *
 import tkinter as tk
 
 
-# function for exiting program
+# Function for exiting program
 def exit_prgm(app):
 
     exit_msg = tk.messagebox.askyesno(title="Exiting Program",
