@@ -47,11 +47,9 @@ def main():
 
     app = tk.Tk()
 
-    app.geometry("525x170")
+    app.geometry("530x200")
 
     app.configure(background="Gray")
-
-    app.resizable(False, False)
 
     app.title("Youtube Downloader")
 
